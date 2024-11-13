@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: left; /* Center the buttons horizontally */
+    justify-content: left; /* Center the content vertically */
+}
+
+.container h1 {
+    margin-bottom: 20px; /* Space between heading and buttons */
+    color: black;
+}
+
+.button {
+    margin: 10px 0; /* Add vertical spacing between buttons */
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button.login {
+    background-color: #66D9A3;
+    color: white;
+    border: none;
+}
+
+.button.call {
+    background-color: #1C8C6C;
+    color: white;
+    border: none;
+}
+
+.button.danger {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+/* .container--xlarge {
+    max-width: 1500px;
+    padding: 5px;
+    border: 2px solid orange;
+    color: black; 
+    font-size: small;
+} */
+
+/* cardNavbar.module.css */
+
+/* Style for the container--xlarge */
+/* Styling for the containers */
+.container {
+    margin-bottom: 40px; /* Adds space between container and the next image */
+}
+
+/* Additional container styles */
+.container--xlarge {
+    max-width: 2000px;
+    padding-top: 5px;
+    border: 2px solid #66D9A3;
+    font-size: small;
+    color: black;
+    align-items: left;
+}
+
+/* Paragraph styling */
+.paragraph {
+    background-color: none; /* No background color */
+    padding: 10px 20px;
+    color: black; /* Black text color */
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.paragraphHighlight {
+    background-color: #66D9A3; /* Green background */
+    padding: 10px 20px;
+    color: black; /* Changed to black text */
+    font-size: 24px;
+    text-decoration: none;
+}

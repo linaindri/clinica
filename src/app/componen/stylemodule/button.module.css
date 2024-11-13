@@ -1,0 +1,257 @@
+/* components/Button.module.css */
+/* .button {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 7px 12px;
+    border: 1px solid #D5D5D5;
+    background-image: linear-gradient(#EEE, #DDD);
+    font: 700 13px/18px Helvetica, arial;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s, border-color 0.3s;
+    width: 300px; 
+    height: auto;
+    border-radius: 5px;
+} */
+
+/* .button--state-login { ini yg sebelunya
+    color: #FFF;
+    background: #569E3D linear-gradient(#79D858, #569E3D) repeat-x;
+    border-color: #4A993E;
+} */
+/* Tombol Login */
+
+/* .button--state-login {
+    color: #FFF;
+    background: #167656;
+    height: 45px;
+    width: 90px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button--state-login:hover {
+    background-color: #367E75;
+}
+
+/* Tombol Call to Action hubungi dokter*/
+/* .button--state-call {
+    color: #FFF;
+    background: linear-gradient(135deg, #469C8F, #167656);
+    border: 2px solid #167656;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.button--state-call:hover {
+    background-color: #167656;
+    transform: scale(1.05);
+} */
+
+/* Tombol Danger (Detail) */
+/* .button--state-danger {
+    color: #FFF;
+    width: 150px;
+    background: #167656;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+.button--state-danger:hover {
+    background-color: #44da8f;
+} */
+
+/* Tombol Register */
+/* .button--state-register {
+    color: #FFF;
+    background: #167656;
+    height: 45px;
+    width: 110px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button--state-register:hover {
+    background-color: #367E75;
+}  */
+
+/* Tombol Tambah Ke Keranjang */
+/* .button--state-krj {
+    color: #FFF;
+    background-color: #FFA500;
+    background: #167656;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button--state-krj:hover {
+    background-color: #CC8400;
+    transform: scale(1.05);
+} */
+
+/* Efek Hover untuk Default Button */
+/* .button:hover {
+    opacity: 0.9;
+} */
+
+/* Button.module.css */
+.button {
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  .primary {
+    color: #0056b3;
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid #0056b3;
+  }
+  
+  .primary:hover {
+    background-color: #0056b3;
+    color: #fff;
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4);
+  }
+  
+  .success {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .success:hover {
+    background-color: #218838;
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.4);
+  }
+  
+  .danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .danger:hover {
+    background-color: #c82333;
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(220, 53, 69, 0.4);
+  }
+  
+  .default {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  .default:hover {
+    background-color: #5a6268;
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(108, 117, 125, 0.4);
+  }
+  
+  /* Focus effect for accessibility */
+  .button:focus {
+    outline: 3px solid #ffd700; /* Gold outline for focus */
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+  }
+  
+
+/* ButtonSize.module.css */
+.small {
+    padding: 6px 12px;
+    font-size: 12px;
+}
+
+.medium {
+    padding: 8px 16px;
+    font-size: 14px;
+    width: 15%;
+}
+
+.large {
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 30%;
+    height: 45px;
+}
+
+.xlarge {
+    padding: 16px 24px;
+    font-size: 18px;
+}
+
+/* ButtonColor.module.css */
+/* .default {
+    background: #ccc;
+    color: #000;
+}
+
+.primary {
+    background: #007bff;
+    color: #fff;
+}
+
+.success {
+    background: #28a745;
+    color: #fff;
+}
+
+.danger {
+    background: #dc3545;
+    color: #fff;
+} */
+
+.warning {
+    background: #ffc107;
+    color: #000;
+}
+
+/* ButtonShape.module.css */
+.rounded {
+     border-radius: 200px; /*ukuran untuk bagian pojok kotak, bagian sisi */
+}
+
+.coba {
+    border-radius: 15px;
+}
+
+.square {
+    border-radius: 9px;
+}
+
+.circle {
+    border-radius: 50%;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

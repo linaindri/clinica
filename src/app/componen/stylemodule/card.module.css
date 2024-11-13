@@ -1,0 +1,73 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 2px 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Card styling */
+.card {
+  width: 25%;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Fixed syntax for box-shadow */
+  margin: 20px;
+  transition: 0.3s; /* Added smooth transition */
+  float: left;
+  padding: 0 10px;
+}
+
+.card:hover {
+  /* transform: translateY(-5px); */
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Card image */
+.card-image {
+  width: 500%;
+  height: 500px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Card content */
+.card-content {
+  padding: 15px;
+}
+
+/* Card title */
+.card-title {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Card description */
+.card-description {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* Card link */
+.cardLink { /* Changed to camelCase to match class usage in JSX */
+  text-decoration: none;
+  border: none;
+  outline: 0;
+  padding: 8px 12px;
+  color: white;
+  background-color: #000; /* Background color set to black */
+  text-align: center;
+  cursor: pointer;
+  display: inline-block; /* Ensures link button styling */
+  font-size: 13px;
+  border-radius: 5px; /* Optional: adds slight rounding to corners */
+}
+
+.cardLink:hover {
+  text-decoration: underline;
+  background-color: #333; /* Slightly lighter background on hover */
+}

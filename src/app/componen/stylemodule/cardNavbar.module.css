@@ -1,0 +1,244 @@
+/*css navbar1*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); /* Pastikan font di-load */ /* Pastikan font di-load */
+
+.navbar {
+    background-color: #eeeeee; /* Warna latar belakang navbar */
+    padding: 10px 20px; /* Padding untuk navbar */
+    border-bottom: 2px solid #e7e6e6; /* Tambahkan garis bawah */
+    font-family: 'Open Sans', sans-serif; /* Terapkan font Open Sans */
+}
+
+.navbar2 {
+    background-color: #0b4374;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.navbar3 {
+    background-color: #043e05;
+    border: 2px dotted rgb(12, 221, 127);
+    border-radius: 30px 0px 0px 0px;
+    padding: 10px 20px;
+}
+.navbar__container {
+    display: flex;
+    justify-content: space-between; /* Ruang antara brand dan tombol */
+    align-items: center; /* Vertikal pusat */
+   
+}
+
+.navbar__brand {
+    color: black;
+    font-size: 24px; /* Ukuran font untuk brand */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    font-family: 'Montserrat';
+    
+}
+
+.navbar__buttons {
+    display: flex;
+    gap: 10px; /* Jarak antar tombol */
+}
+
+.navbar__button {
+    padding: 10px 20px; /* Padding untuk tombol */
+    border: none;
+    border-radius: 5px; /* Sudut membulat */
+    cursor: pointer; /* Menunjukkan tombol bisa diklik */
+}
+
+/* Gaya untuk berbagai jenis tombol */
+.navbar__button_primary {
+    background-color: #ebebeb; 
+    color: black; 
+}
+
+.navbar__button_secondary {
+    background-color: #ebebeb; 
+    color: black; 
+}
+
+.navbar__button_login {
+    background-color: #ebebeb; 
+    color: black; 
+}
+
+.navbar__button_danger {
+    background-color: #ebebeb; 
+    color: black; 
+}
+
+.navbar__button_warning {
+    background-color: #ffc107; /* Kuning */
+    color: black;
+}
+
+/* Efek hover untuk tombol */
+.navbar__button:hover {
+    opacity: 0.8; /* Efek saat hover */
+    background-color: #469C8F;
+    color: white;
+}
+
+/* css navbar2*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.navbar2 {
+    background-color: #ebebeb; /* Set background color of the navbar */
+    padding: 10px 20px;
+    border-bottom: 1px solid #e7e6e6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar__container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__brand2 {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    display: flex;
+    align-items: center;
+}
+
+.navbar__buttons2 {
+    display: flex;
+    gap: 20px; /* Space between the buttons */
+}
+
+.navbar__button2 {
+    padding: 10px 20px; /* Add padding for buttons */
+    font-size: 16px;
+    color: #4a4a4a;
+    background-color: transparent;
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none; /* Remove underline */
+}
+
+/* Primary button style */
+.navbar__button2_primary {
+    background-color: #ebebeb;
+    color: black;
+}
+
+/* Secondary button style */
+.navbar__button2_secondary {
+    background-color: #ebebeb;
+    color: black;
+}
+
+/* Login button style */
+.navbar__button2_login {
+    background-color: #ebebeb;
+    color: black;
+}
+
+/* Danger button style */
+.navbar__button2_danger {
+    background-color: #ebebeb;
+    color: black;
+}
+
+/* Hover effect for all buttons */
+.navbar__button2:hover {
+    color: #469C8F; /* Set color on hover to blue */
+    border-bottom: 2px solid #469C8F; /* Add bottom border to indicate selection */
+}
+
+/* css footer */
+
+.footer {
+    background-color: #002d4b; /* Dark blue background */
+    color: #fff; /* White text color */
+    padding: 40px 0;
+}
+
+.topSection {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.topSection p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.socialMedia a img {
+    width: 30px; /* Icon size */
+    height: 30px;
+    filter: brightness(0) invert(1); /* Make icons white */
+}
+
+.linkSection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.column {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.column h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.column a {
+    display: block;
+    font-size: 13px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+}
+
+.column a:hover {
+    color: black; /* Lighter color on hover */
+}
+
+.bottomSection {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.flags {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.flags a img {
+    width: 25px; /* Flag icon size */
+    height: 25px;
+}
+
+.bottomSection p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,44 @@
+/* components/Layout.module.css */
+.layout {
+    display: flex;
+    min-height: 100vh; /* Tinggi penuh layar */
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding: 60px;
+    text-align: left; /* Menjamin semua teks di sidebar rata kiri */
+    align-items: left;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: left;
+    
+}
+
+.sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block; /* Menjadikan elemen a sebagai block */
+    text-align: left; /* Memastikan teks di dalam a rata kiri */
+}
+
+.sidebar nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
+}

@@ -1,0 +1,56 @@
+/* Mengimpor font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Judul Utama */
+.judulUtama {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  color: #1C8C6C; /* Warna hijau tua untuk judul utama */
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Subjudul */
+.subJudul {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  color: #333366; /* Warna biru tua untuk subjudul */
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+/* Teks Deskripsi */
+.teksDeskripsi {
+  font-family: 'Arial', sans-serif; /* Mengganti font deskripsi menjadi Arial */
+  font-size: 16px;
+  color: #920f87; /* Warna abu-abu gelap untuk teks deskripsi */
+  line-height: 1.6; /* Menambah jarak antar baris agar mudah dibaca */
+  margin-bottom: 10px;
+}
+
+/* Poin Penting atau Informasi Penting */
+.poinPenting {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #B22222; /* Warna merah tua untuk menarik perhatian */
+  font-weight: bold; /* Teks tebal untuk kesan penting */
+  margin-bottom: 15px;
+}
+
+/* Keterangan pada Formulir atau Label Input */
+.labelInput {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #1C8C6C; /* Warna hijau tua untuk label input */
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+/* Teks Informasi Ringan atau Catatan Kecil */
+.teksRingan {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  color: #466917; /* Warna abu-abu muda untuk informasi ringan */
+  font-weight: normal;
+  margin-top: 10px;
+}
